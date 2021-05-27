@@ -7,6 +7,17 @@ import streamlit.components as stc
 import time
 from PIL import Image
 
+st.markdown(
+    """
+<style>
+.sidebar .sidebar-content {
+    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+    color: white;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
 
 import streamlit as st
 import base64
