@@ -21,7 +21,7 @@ import streamlit as st
 import base64
 
 image = Image.open("header.png")
-st.image(image,width=1500)
+st.image(image,width=1200)
 
 def exe_downloader():
     with open (r"./dist/encrypt.exe", 'rb') as f:

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1ffec22-5f27-45b1-93de-cb374d73f475" name="Default Changelist" comment="added the messagebox file">
-      <change afterPath="$PROJECT_DIR$/Firewall.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy_encrypt/header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy_encrypt/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/deploy_encrypt/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
