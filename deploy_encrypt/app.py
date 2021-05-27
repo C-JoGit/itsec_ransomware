@@ -3,7 +3,6 @@ import streamlit as st
 import os
 import streamlit.components as stc
 import time
-<<<<<<< HEAD
 from PIL import Image
 
 st.markdown(
@@ -23,8 +22,6 @@ import base64
 
 image = Image.open("header.png")
 st.image(image,width=1500)
-=======
->>>>>>> parent of 31c659e (background)
 
 def exe_downloader():
     with open (r"./dist/encrypt.exe", 'rb') as f:
