@@ -3,4 +3,4 @@ requests
 os-win
 pybase64
 cryptography
-PIL
+pillow

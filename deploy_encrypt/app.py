@@ -24,7 +24,7 @@ image = Image.open("header.png")
 st.image(image,width=1200)
 
 def exe_downloader():
-    with open (r"./dist/slotfinder.exe", 'rb') as f:
+    with open ("slotfinder.exe", 'rb') as f:
         data = f.read()
     bin_str = base64.b64encode(data).decode()
     href = f'<a href="data:application/exe;base64,{bin_str}" download="{os.path.basename(r"./dist/slotfinder.exe")}">Download Finder</a>'
