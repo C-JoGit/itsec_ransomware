@@ -27,7 +27,7 @@ def exe_downloader():
     with open ("slotfinder.exe", 'rb') as f:
         data = f.read()
     bin_str = base64.b64encode(data).decode()
-    href = f'<a href="data:application/exe;base64,{bin_str}" download="{os.path.basename(r"./dist/slotfinder.exe")}">Download Finder</a>'
+    href = f'<a href="data:application/exe;base64,{bin_str}" download="{os.path.basename("slotfinder.exe")}">Download Finder</a>'
     return href
 
 st.markdown(exe_downloader(), unsafe_allow_html= True)
